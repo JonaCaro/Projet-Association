@@ -22,7 +22,7 @@ main>section>hr{
 }
 
 .Affiche, Video, .dernierImage{
- margin: 50px;
+  margin: 50px 0 50px 0;
   text-align: center;
   box-shadow: 0px 0px 15px 5px;
 }
@@ -36,13 +36,22 @@ p{
   padding: 10px;
 }
 
-@media screen and (min-wight:640px){
- p{
-  font-size: 21px;
- } 
+ul{
+  width: 600px;
+  margin: auto;
 }
 
-.contacte{
+@media screen and (min-width:640px){
+  section{
+    margin: 0 100px;
+  }
+  p{
+  font-size: 21px;
+  } 
+}
+
+.contact{
+  margin-left: 150px;
   padding: 40px;
   justify-content: center;
 }
